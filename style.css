@@ -50,27 +50,27 @@ section h2 {
   font-size: 1.3em;
 }
 
-.item {
+.faculdade {
   margin-bottom: 15px;
 }
 
-.item strong {
+.faculdade strong {
   display: block;
   font-size: 1.05em;
 }
 
-.item span {
+.faculdade span {
   color: #666;
   font-size: 0.9em;
 }
 
-.skills {
+.habilidades {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.skill-tag {
+.habilidades-dif {
   background-color: #e2e8f0;
   color: #1a2b4c;
   padding: 6px 14px;
@@ -78,20 +78,20 @@ section h2 {
   font-size: 0.9em;
 }
 
-.contact-list {
+.contato {
   list-style: none;
 }
 
-.contact-list li {
+.contato li {
   margin-bottom: 8px;
 }
 
-.contact-list a {
+.contato a {
   color: #1a2b4c;
   text-decoration: none;
 }
 
-.contact-list a:hover {
+.contato a:hover {
   text-decoration: underline;
 }
 
