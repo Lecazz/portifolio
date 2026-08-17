@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1a2b4c;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #cbd5e1;
+}
+
+.eu {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: white;
+  border-radius: 8px;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  color: #1a2b4c;
+  border-bottom: 2px solid #1a2b4c;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.item strong {
+  display: block;
+  font-size: 1.05em;
+}
+
+.item span {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background-color: #e2e8f0;
+  color: #1a2b4c;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-list li {
+  margin-bottom: 8px;
+}
+
+.contact-list a {
+  color: #1a2b4c;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #999;
+  font-size: 0.85em;
+}
